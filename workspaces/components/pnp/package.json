@@ -1,0 +1,8 @@
+{
+  "name": "pnp",
+  "version": "0.0.1",
+  "main": "index.js",
+  "dependencies": {
+    "lodash": "4.17.21"
+  }
+}
