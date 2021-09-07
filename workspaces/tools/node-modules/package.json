@@ -5,7 +5,7 @@
     "build": "webpack"
   },
   "resolutions": {
-    "enhanced-resolve": "git@github.com:merceyz/enhanced-resolve.git#commit=05d77ef3dbb294aac22dd50565ed69d89f0b9c95"
+    "enhanced-resolve": "merceyz/enhanced-resolve.git#commit=05d77ef3dbb294aac22dd50565ed69d89f0b9c95"
   },
   "dependencies": {
     "lodash": "4.17.21"

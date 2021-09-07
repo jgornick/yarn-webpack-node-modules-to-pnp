@@ -2,11 +2,12 @@
   "name": "yarn-webpack-node-modules-to-pnp",
   "packageManager": "yarn@3.0.1",
   "workspaces": [
-    "workspaces/*/*"
+    "workspaces/*/*",
+    "!workspaces/tools/node-modules"
   ],
   "scripts": {
     "i": "yarn && yarn install:node-modules",
-    "install:node-modules": "cd workspaces/tools/node-modules && yarn",
+    "install:node-modules": "cd workspaces/tools/node-modules && NODE_OPTIONS='' yarn",
     "postinstall": "yarn install:node-modules"
   }
 }

@@ -376,13 +376,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"enhanced-resolve@npm:^5.8.0":
+"enhanced-resolve@merceyz/enhanced-resolve.git#commit=05d77ef3dbb294aac22dd50565ed69d89f0b9c95":
   version: 5.8.2
-  resolution: "enhanced-resolve@npm:5.8.2"
+  resolution: "enhanced-resolve@https://github.com/merceyz/enhanced-resolve.git#commit=05d77ef3dbb294aac22dd50565ed69d89f0b9c95"
   dependencies:
     graceful-fs: ^4.2.4
     tapable: ^2.2.0
-  checksum: 6e871ec5b183220dbcdaff8580cbdacee5425e321790e5846abd1b573d20d2bcb37f73ee983fd10c6d6878d31a2d08e234e72fc91a81236d64623ee6ba7d6611
+  checksum: 9b9dd0b53cfa5b37051ad7d17ea54fd60cf026657878129fa17003d36713b1f1e92b8ee63d39e1a5ea2ca554cdc5e8ab6cc5d39ee75d3afdab96e343d56b4454
   languageName: node
   linkType: hard
 
