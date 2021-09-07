@@ -6,6 +6,7 @@
     "!workspaces/tools/node-modules"
   ],
   "scripts": {
+    "build:node-modules": "cd workspaces/tools/node-modules && yarn build",
     "i": "yarn && yarn install:node-modules",
     "install:node-modules": "cd workspaces/tools/node-modules && NODE_OPTIONS='' yarn",
     "postinstall": "yarn install:node-modules"
