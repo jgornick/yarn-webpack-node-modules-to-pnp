@@ -5,10 +5,11 @@
     "build": "webpack"
   },
   "resolutions": {
-    "enhanced-resolve": "merceyz/enhanced-resolve.git#commit=05d77ef3dbb294aac22dd50565ed69d89f0b9c95"
+    "enhanced-resolve": "merceyz/enhanced-resolve.git#commit=a6701f41608fd9f2cb52b58203df4b676f6e5e43"
   },
   "dependencies": {
-    "lodash": "4.17.21"
+    "lodash": "4.17.21",
+    "test-pnp": "link:../../components/pnp"
   },
   "devDependencies": {
     "webpack": "5.51.1",

@@ -376,13 +376,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"enhanced-resolve@merceyz/enhanced-resolve.git#commit=05d77ef3dbb294aac22dd50565ed69d89f0b9c95":
-  version: 5.8.2
-  resolution: "enhanced-resolve@https://github.com/merceyz/enhanced-resolve.git#commit=05d77ef3dbb294aac22dd50565ed69d89f0b9c95"
+"enhanced-resolve@merceyz/enhanced-resolve.git#commit=a6701f41608fd9f2cb52b58203df4b676f6e5e43":
+  version: 5.8.3
+  resolution: "enhanced-resolve@https://github.com/merceyz/enhanced-resolve.git#commit=a6701f41608fd9f2cb52b58203df4b676f6e5e43"
   dependencies:
     graceful-fs: ^4.2.4
     tapable: ^2.2.0
-  checksum: 9b9dd0b53cfa5b37051ad7d17ea54fd60cf026657878129fa17003d36713b1f1e92b8ee63d39e1a5ea2ca554cdc5e8ab6cc5d39ee75d3afdab96e343d56b4454
+  checksum: e66aae6cbcdbb7260e17793771a02d931a38a2fe6424057ede8c37d8a44ef4100e81472b8e17969dbb72f6d6c7ceadbef5c5834da12a0ada64a6b231ee9f2bbe
   languageName: node
   linkType: hard
 
@@ -703,6 +703,7 @@ __metadata:
   resolution: "node-modules@workspace:."
   dependencies:
     lodash: 4.17.21
+    test-pnp: "file:../../components/pnp"
     webpack: 5.51.1
     webpack-cli: 4.8.0
   languageName: unknown
@@ -997,6 +998,15 @@ resolve@^1.9.0:
   bin:
     terser: bin/terser
   checksum: a929ab3f0e030e59a136557063833cc5054997bd56524682308421c14a3c8f4f37ff94f84c09da42bd1e5efb4512d0c6a1dc3bbcd2a130ed6bf39f81d20c2765
+  languageName: node
+  linkType: hard
+
+"test-pnp@file:../../components/pnp::locator=node-modules%40workspace%3A.":
+  version: 0.0.1
+  resolution: "test-pnp@file:../../components/pnp#../../components/pnp::hash=8d89b2&locator=node-modules%40workspace%3A."
+  dependencies:
+    lodash: 4.17.21
+  checksum: 9d91e1aa1a3373b287c31f323b1599424d1529cebe6ecdcc2161c9fad32ebc05a881bb822780a4b598ff64b13ff2fa6d4e8fe50a7b503cab93c52b4a96c4b91a
   languageName: node
   linkType: hard
 
